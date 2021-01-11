@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:todo_app/assets/global.dart';
 
 import 'assets/global.dart';
+import 'assets/global.dart';
 
 void main() {
   runApp(MyApp());
@@ -107,7 +108,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ],
                 labelColor: Color.fromRGBO(13, 194, 150, 0.9),
-                unselectedLabelColor: Color.fromRGBO(28, 27, 27, 0.6),
+                unselectedLabelColor: lightBlack,
                 indicatorSize: TabBarIndicatorSize.label,
                 indicatorPadding: EdgeInsets.all(5.0),
                 indicatorColor: Colors.transparent,
